@@ -2,7 +2,133 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" source-language="en-US" target-language="en-US" original="Task_1">
     <body>
-      <group id="body" />
+      <group id="body">
+        <trans-unit id="Table 3371391937 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Group</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CSD Customer Group - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3371391937 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CSD Customer Group - Field Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3371391937 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CSD Customer Group - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3371391937 - Field 4130717728 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Parent Category</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CSD Customer Group - Field Parent Category - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3371391937 - Field 1878130204 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CSD Customer Group - Field Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 645009837 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Group Card</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CSD Customer Group Card - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3473327351 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Group List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CSD Customer Group List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 562644883 - Field 2733988442 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
+          <source>Group 1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CSD CustomerExt - Field Group 1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 562644883 - Field 820898591 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
+          <source>Group 2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CSD CustomerExt - Field Group 2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 562644883 - Field 1458595208 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
+          <source>Group 3</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CSD CustomerExt - Field Group 3 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2946020546 - Field 2733988442 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 235946633">
+          <source>Group 1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustDetailedLedgEntryExt - Field Group 1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2946020546 - Field 820898591 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 235946633">
+          <source>Group 2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustDetailedLedgEntryExt - Field Group 2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2946020546 - Field 1458595208 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 235946633">
+          <source>Group 3</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustDetailedLedgEntryExt - Field Group 3 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2780128723 - Field 2733988442 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2733917450">
+          <source>Group 1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustLedgerEntryExt - Field Group 1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2780128723 - Field 820898591 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2733917450">
+          <source>Group 2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustLedgerEntryExt - Field Group 2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2780128723 - Field 1458595208 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2733917450">
+          <source>Group 3</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustLedgerEntryExt - Field Group 3 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3083527838 - Field 2733988442 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 552782286">
+          <source>Group 1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SalesCrMemoExt - Field Group 1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3083527838 - Field 820898591 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 552782286">
+          <source>Group 2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SalesCrMemoExt - Field Group 2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3083527838 - Field 1458595208 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 552782286">
+          <source>Group 3</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SalesCrMemoExt - Field Group 3 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 433817161 - Field 2733988442 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 809936682">
+          <source>Group 1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SalesInvoiceHeaderExt - Field Group 1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 433817161 - Field 820898591 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 809936682">
+          <source>Group 2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SalesInvoiceHeaderExt - Field Group 2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 433817161 - Field 1458595208 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 809936682">
+          <source>Group 3</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SalesInvoiceHeaderExt - Field Group 3 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1878130204 - EnumValue 2733988442 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Group 1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Type - EnumValue Group 1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1878130204 - EnumValue 820898591 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Group 2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Type - EnumValue Group 2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1878130204 - EnumValue 1458595208 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Group 3</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Type - EnumValue Group 3 - Property Caption</note>
+        </trans-unit>
+      </group>
     </body>
   </file>
 </xliff>
