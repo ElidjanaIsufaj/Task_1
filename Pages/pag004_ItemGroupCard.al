@@ -1,8 +1,8 @@
-page 50201 "CSD Customer Group Card"
+page 50204 "CSD Item Group Card"
 {
     PageType = Card;
-    SourceTable = "CSD Customer Group";
-    Caption = 'Customer Group Card';
+    SourceTable = "CSD Item Group";
+    Caption = 'Item Group Card';
 
     layout
     {

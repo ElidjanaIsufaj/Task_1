@@ -1,19 +1,18 @@
-page 50201 "CSD Customer Group Card"
+page 50205 "CSD Item Group List"
 {
-    PageType = Card;
-    SourceTable = "CSD Customer Group";
-    Caption = 'Customer Group Card';
+    PageType = List;
+    ApplicationArea = All;
+    UsageCategory = Lists;
+    SourceTable = "CSD Item Group";
+    Caption = 'Item Group List';
+    CardPageId = "CSD Item Group Card";
 
     layout
     {
         area(Content)
         {
-            group(General)
+            repeater(GroupName)
             {
-                field(Type; Rec.Type)
-                {
-                    ApplicationArea = All;
-                }
                 field(Code; Rec.Code)
                 {
                     ApplicationArea = All;
@@ -28,6 +27,10 @@ page 50201 "CSD Customer Group Card"
                 }
             }
         }
+        area(Factboxes)
+        {
+
+        }
     }
 
     actions
@@ -38,14 +41,11 @@ page 50201 "CSD Customer Group Card"
             {
                 ApplicationArea = All;
 
-                trigger OnAction()
+                trigger OnAction();
                 begin
 
                 end;
             }
         }
     }
-
-    var
-        myInt: Integer;
 }

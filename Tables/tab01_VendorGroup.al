@@ -1,9 +1,9 @@
-table 50200 "CSD Customer Group"
+table 50201 "CSD Vendor Group"
 {
     DataClassification = ToBeClassified;
-    Caption = 'Customer Group';
-    LookupPageId = "CSD Customer Group List";
-    DrillDownPageId = "CSD Customer Group List";
+    Caption = 'Vendor Group';
+    LookupPageId = "CSD Vendor Group List";
+    DrillDownPageId = "CSD Vendor Group List";
 
     fields
     {
@@ -33,10 +33,9 @@ table 50200 "CSD Customer Group"
         {
             Caption = 'Parent Category';
             DataClassification = ToBeClassified;
-            ValidateTableRelation = true;   // nuk lejon qe te zgjidhen vlera te tjera pervec atyre qe jane ne tablerelation
-            TableRelation = if (Type = const("Group 2")) "CSD Customer Group".Code where(Type = const("Group 1"))
+            TableRelation = if (Type = const("Group 2")) "CSD Vendor Group".Code where(Type = const("Group 1"))
             else
-            if (Type = const("Group 3")) "CSD Customer Group".Code where(Type = const("Group 2"));
+            if (Type = const("Group 3")) "CSD Vendor Group".Code where(Type = const("Group 2"));
             trigger OnValidate()
             begin
                 if (Type = Type::"Group 1") then BEGIN
@@ -63,6 +62,7 @@ table 50200 "CSD Customer Group"
     var
         Text00: Label 'Ju nuk mund te insertoni nje kategori prind per tipin "Group 1"';
         Text01: Label 'Kategoria Prind nuk mund te jete bosh';
+
 
     trigger OnInsert()
     begin
