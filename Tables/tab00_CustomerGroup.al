@@ -9,14 +9,30 @@ table 50200 "CSD Customer Group"
     {
         field(10; "Type"; Enum Type)
         {
+
             Caption = 'Type';
             DataClassification = ToBeClassified;
             trigger OnValidate()
+
             begin
                 if (Type = Type::"Group 1") then BEGIN
                     if ("Parent Category" <> '') then
                         Error(Text00);
-                end;
+                    Code := '';
+                    Description := '';
+                end
+                else
+                    if (Type = Type::"Group 2") then begin
+                        Code := '';
+                        Description := '';
+                        "Parent Category" := '';
+                    end
+                    else
+                        if (Type = Type::"Group 3") then begin
+                            Code := '';
+                            Description := '';
+                            "Parent Category" := '';
+                        end;
             end;
         }
         field(20; Code; Code[50])
@@ -37,6 +53,7 @@ table 50200 "CSD Customer Group"
             TableRelation = if (Type = const("Group 2")) "CSD Customer Group".Code where(Type = const("Group 1"))
             else
             if (Type = const("Group 3")) "CSD Customer Group".Code where(Type = const("Group 2"));
+
             trigger OnValidate()
             begin
                 if (Type = Type::"Group 1") then BEGIN

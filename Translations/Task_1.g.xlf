@@ -138,6 +138,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page CSD Vendor Group List - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 1633892545 - NamedType 2082714319" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 1633892545">
+          <source>Line %1 Tax Group Code must not be empty</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Sales Order Ext - NamedType Text00</note>
+        </trans-unit>
         <trans-unit id="TableExtension 562644883 - Field 2733988442 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
           <source>Group 1</source>
           <note from="Developer" annotates="general" priority="2"></note>

@@ -244,5 +244,8 @@ codeunit 50200 "CSD Event Subscriptions"
         ValueEntry."Group 5" := ItemJournalLine."Group 5";
     end;
 
+
+
+
 }
 
