@@ -138,8 +138,18 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page CSD Vendor Group List - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Report 1757419006 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Minimum Inventory</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ITS Minimum Inventory - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1757419006 - ReportLabel 253704284" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Raporti Minimum Inventari</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ITS Minimum Inventory - ReportLabel ReportCaption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 1633892545 - NamedType 2082714319" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 1633892545">
-          <source>Line %1 Tax Group Code must not be empty</source>
+          <source>Line Discount % must not be 1</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Sales Order Ext - NamedType Text00</note>
         </trans-unit>
@@ -217,6 +227,11 @@
           <source>Group 3</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension GenJnlLineExt - Field Group 3 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2950218440 - Field 365542049 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Difference</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ItemExt - Field Difference - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 2950218440 - Field 820898591 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
           <source>Group 2</source>

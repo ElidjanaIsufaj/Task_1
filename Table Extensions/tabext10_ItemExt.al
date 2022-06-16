@@ -26,6 +26,13 @@ tableextension 50210 "ItemExt" extends "Item"
             Caption = 'Group 5';
             TableRelation = "CSD Item Group".Code where(Type = const("Group 5"), "Parent Category" = field("Group 4"));
         }
+        field(50204; "Difference"; Decimal)
+        {
+            Caption = 'Difference';
+            DataClassification = ToBeClassified;
+            // Editable = false;
+
+        }
     }
 
     var

@@ -23,6 +23,7 @@ pageextension 50213 "ItemListExt" extends "Item List"
         }
     }
 
+
     actions
     {
         // Add changes to page actions here
