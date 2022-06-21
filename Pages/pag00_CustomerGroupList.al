@@ -42,13 +42,22 @@ page 50200 "CSD Customer Group List"
     {
         area(Processing)
         {
-            action(ActionName)
+            action(Email)
             {
                 ApplicationArea = All;
 
                 trigger OnAction();
+                var
+                    EmailItem: Record "Email Item" Temporary;
+                    Customer: Record Customer;
+                    RecRef: RecordRef;
+                    OutStr: OutStream;
                 begin
+                    EmailItem."Send to" := 'eisufaj@itechsolutions.al';
+                    EmailItem.Subject := 'Hello';
+                    EmailItem.Validate("Plaintext Formatted", false);
 
+                    Customer.SetRange("No.", Rec.Code);
                 end;
             }
         }

@@ -246,6 +246,16 @@ codeunit 50200 "CSD Event Subscriptions"
 
 
 
+    // [EventSubscriber(ObjectType::Table, Database::"Document Attachment", 'OnBeforeInsertAttachment', '', true, true)]
+    // local procedure "Document Attachment_OnBeforeInsertAttachment"
+    // (
+    //     var DocumentAttachment: Record "Document Attachment";
+    // 	var RecRef: RecordRef
+    // )
+    // begin
+
+    // end;
+
 
 }
 
